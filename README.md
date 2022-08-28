@@ -9,7 +9,6 @@ a simple semi-supervised FSL approach to exploit unlabeled data accompanying the
 ### Dependency
 
 This code requires the following:
-
 * python: 3.x
 * Pytorch: 0.4+
 
@@ -34,7 +33,9 @@ miniimagenet/
 
 ### Run on Mini-ImageNet dataset using 1 GPU:
 
-* 5-way 1-shot tasks:
+* Download the pretrained WRN-28-10 checkpoint from [here]() to initlize the model.
+
+* Run 5-way 1-shot tasks:
 
 ```Shell
 python train.py \
@@ -54,7 +55,7 @@ python train.py \
   --mode semi
 ```
 
-* 5-way 5-shot tasks:
+* Run 5-way 5-shot tasks:
 
 ```Shell
 python train.py \
