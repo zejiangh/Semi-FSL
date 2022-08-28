@@ -33,7 +33,7 @@ miniimagenet/
 
 ### Run on Mini-ImageNet dataset using 1 GPU:
 
-* Download the pretrained WRN-28-10 checkpoint from [here]() to initlize the model.
+* Download the pretrained WRN-28-10 checkpoint from [here](https://drive.google.com/file/d/1_o38Qvz2bDWCm3CWqd7SzWHt_QuFJZ7R/view?usp=sharing) to initlize the model.
 
 * Run 5-way 1-shot tasks:
 
