@@ -7,7 +7,7 @@ In few-shot learning (FSL), the model learns to recognize new objects with extre
 a simple semi-supervised FSL approach to exploit unlabeled data accompanying the few-shot task for improving few-shot performance. Firstly, we propose a Dependency Maximization method based on the Hilbert-Schmidt norm of the cross-covariance operator, which maximizes the statistical dependency between the embedded features of those unlabeled data and their label predictions, together with the supervised loss over the support set. We then use the obtained model to infer the pseudo-labels of the unlabeled data. Furthermore, we propose an Instance Discriminant Analysis to evaluate the credibility of each pseudo-labeled example and select the most faithful ones into an augmented support set to retrain the model as in the frst step. We iterate the above process until the pseudo-labels of the unlabeled set become stable. The proposed method outperforms previous state-of-the-art semi-supervised methods on widely used few-shot classifcation benchmarks.
 
 <div align="center">
-  <img width="100%" src="semi-fsl.pdf">
+  <img width="100%" src="semi-fsl.png">
 </div>
 
 ### Dependency
